@@ -8,10 +8,10 @@ repositories:
     ref: main
 
   - name: email-template-repo
-    url: ssh://git@{{ ENV_GITLAB_BASE_URL }}:{{ ENV_GITLAB_SSH_PORT }}/rht-labs/email-templates.git
+    url: git://git@{{ ENV_GITLAB_BASE_URL }}:{{ ENV_GITLAB_SSH_PORT }}/jfilipcz/email-templates.git
     secret:
       ssh_private_key: /sshSecret/emailTemplatesDeployKey
-    ref: master
+    ref: add-additional-message
 
 tasks:
   - name: Day Two Daily Schedule
