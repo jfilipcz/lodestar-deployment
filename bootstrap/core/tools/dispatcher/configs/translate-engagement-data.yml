@@ -1,7 +1,7 @@
 repositories:
   - name: automation-repo
-    url: https://github.com/rht-labs/lodestar-automation.git
-    ref: master
+    url: https://github.com/jfilipcz/lodestar-automation.git
+    ref: lodestar-automation-jfilipcz
 
 tasks:
   - name: translate-engagement-data
