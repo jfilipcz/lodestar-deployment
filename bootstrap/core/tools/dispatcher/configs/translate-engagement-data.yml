@@ -1,7 +1,7 @@
 repositories:
   - name: automation-repo
     url: https://github.com/jfilipcz/lodestar-automation.git
-    ref: lodestar-automation-jfilipcz
+    ref: add-support-for-non-default-AZ
 
 tasks:
   - name: translate-engagement-data
